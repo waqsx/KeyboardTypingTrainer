@@ -1,0 +1,178 @@
+﻿<Window x:Class="KeyboardTypingTrainer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KeyboardTypingTrainer"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="1080" Width="1920" Background="#FF83B8DA">
+    <Grid Name="buttonGrid">
+
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition x:Uid="0"></RowDefinition>
+            <RowDefinition x:Uid="1"></RowDefinition>
+            <RowDefinition x:Uid="2"></RowDefinition>
+            <RowDefinition x:Uid="3"></RowDefinition>
+            <RowDefinition x:Uid="4"></RowDefinition>
+            <RowDefinition x:Uid="5"></RowDefinition>
+            <RowDefinition x:Uid="6"></RowDefinition>
+            <RowDefinition x:Uid="7" Height="50"></RowDefinition>
+            <RowDefinition x:Uid="8" Height="50"></RowDefinition>
+            <RowDefinition x:Uid="9" Height="50"></RowDefinition>
+            <RowDefinition x:Uid="10" Height="50"></RowDefinition>
+            <RowDefinition x:Uid="11" Height="50"></RowDefinition>
+            <RowDefinition x:Uid="12"></RowDefinition>
+
+        </Grid.RowDefinitions>
+
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition x:Uid="0" Width="7*"></ColumnDefinition>
+            <ColumnDefinition Width="61*"/>
+            <ColumnDefinition x:Uid="1" Width="45"></ColumnDefinition>
+            <ColumnDefinition x:Uid="2" Width="45"></ColumnDefinition>
+            <ColumnDefinition x:Uid="3" Width="45"></ColumnDefinition>
+            <ColumnDefinition x:Uid="4" Width="45"></ColumnDefinition>
+            <ColumnDefinition x:Uid="5" Width="45"></ColumnDefinition>
+            <ColumnDefinition x:Uid="6" Width="45"></ColumnDefinition>
+            <ColumnDefinition x:Uid="7" Width="45"></ColumnDefinition>
+            <ColumnDefinition x:Uid="8" Width="45"></ColumnDefinition>
+
+            <ColumnDefinition x:Uid="9" Width="45"></ColumnDefinition>
+            <ColumnDefinition x:Uid="10" Width="45"></ColumnDefinition>
+            <ColumnDefinition x:Uid="11" Width="45"></ColumnDefinition>
+            <ColumnDefinition x:Uid="12" Width="45"></ColumnDefinition>
+            <ColumnDefinition x:Uid="13" Width="45"></ColumnDefinition>
+            <ColumnDefinition x:Uid="14" Width="100"></ColumnDefinition>
+            <ColumnDefinition x:Uid="15" Width="68*"></ColumnDefinition>
+
+
+        </Grid.ColumnDefinitions>
+
+
+        <Button Name="apostrof" BorderThickness="1.5" TextBlock.TextAlignment="Center" Grid.Row="6" Grid.Column="1" Background="#ff8c78" Content=" `" FontSize="30" BorderBrush="Black"  Width="62" HorizontalAlignment="Left" Margin="396,72,0,0" Height="74" VerticalAlignment="Top" Grid.RowSpan="2"/>
+        <Button Name="N1"  BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="6" Grid.Column="1" Background="#ff8c78" Content=" 1" FontSize="30" BorderBrush="Black"  Width="62" HorizontalAlignment="Left" Margin="457,72,0,0" Height="74" VerticalAlignment="Top" Grid.RowSpan="2"/>
+        <Button Name="N2"  BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="6" Grid.Column="1" Background="#ff8c78" Content=" 2" FontSize="30" BorderBrush="Black"  Width="62" HorizontalAlignment="Left" Margin="517,72,0,0" Grid.ColumnSpan="2" Height="74" VerticalAlignment="Top" Grid.RowSpan="2"/>
+        <Button Name="N3"  BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="6" Grid.Column="2" Background="#FFEAF5A2" Content=" 3" FontSize="30" BorderBrush="Black"  Width="62" HorizontalAlignment="Left" Margin="23,72,0,0" Grid.ColumnSpan="2" Height="75" VerticalAlignment="Top" Grid.RowSpan="2"/>
+        <Button Name="N4"  BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="6" Grid.Column="3" Background="#FFA8F0A9" Content=" 4" FontSize="30" BorderBrush="Black"  Width="62" HorizontalAlignment="Left" Margin="39,72,0,0" Grid.ColumnSpan="3" Height="74" VerticalAlignment="Top" Grid.RowSpan="2"/>
+        <Button Name="N5"  BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="6" Grid.Column="5" Background="#FFA1FFFC" Content=" 5" FontSize="30" BorderBrush="Black" Margin="9,72,19,0" Grid.ColumnSpan="2" Width="62" Height="74" VerticalAlignment="Top" Grid.RowSpan="2"/>
+        <Button Name="N6"  BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="6" Grid.Column="6" Background="#FFA1FFFC" Content=" 6" FontSize="30" BorderBrush="Black"  Width="62" HorizontalAlignment="Left" Margin="24,72,0,0" Grid.ColumnSpan="2" Height="74" VerticalAlignment="Top" Grid.RowSpan="2"/>
+        <Button Name="N7"  BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="6" Grid.Column="7" Background="#FFD995ED" Content=" 7" FontSize="30" BorderBrush="Black" Margin="39,72,34,0" Grid.ColumnSpan="3" Width="62" Height="74" VerticalAlignment="Top" Grid.RowSpan="2"/>
+        <Button Name="N8"  BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="6" Grid.Column="9" Background="#ff8c78" Content=" 8" FontSize="30" BorderBrush="Black" Margin="9,72,19,0" Grid.ColumnSpan="2" Width="62" Height="74" VerticalAlignment="Top" Grid.RowSpan="2"/>
+        <Button Name="N9"  BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="6" Grid.Column="10" Background="#FFEAF5A2" Content=" 9" FontSize="30" BorderBrush="Black"  Width="62" HorizontalAlignment="Left" Margin="22,72,0,0" Grid.ColumnSpan="2" Height="74" VerticalAlignment="Top" Grid.RowSpan="2"/>
+        <Button Name="N0"  BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="6" Grid.Column="11" Background="#FFA8F0A9" Content=" 0" FontSize="30" BorderBrush="Black" Margin="38,72,34,0" Width="62" Height="74" VerticalAlignment="Top" Grid.ColumnSpan="3" Grid.RowSpan="2"/>
+        <Button Name="minus"  BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="6" Grid.Column="13" Background="#FFA8F0A9" Content=" -" FontSize="30" BorderBrush="Black"  Width="62" HorizontalAlignment="Left" Margin="8,72,0,0" Grid.ColumnSpan="2" Height="74" VerticalAlignment="Top" Grid.RowSpan="2"/>
+        <Button Name="ravno"  BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="6" Grid.Column="14" Background="#FFA8F0A9" Content=" =" FontSize="30" BorderBrush="Black"  Width="62" HorizontalAlignment="Left" Margin="24,72,0,0" Height="74" VerticalAlignment="Top" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+
+        <Button Name="backspace"  BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="6" Grid.Column="15" Background="#FFF1E5E5" Content="Backspace" FontSize="19" BorderBrush="Black" Margin="40,72,0,0" HorizontalAlignment="Left" Width="180" Height="74" VerticalAlignment="Top" Grid.ColumnSpan="2" Grid.RowSpan="2"/>
+        <Button Name="tab"  BorderThickness="1" VerticalAlignment="Top" TextBlock.TextAlignment="Center" Grid.Row="7" Grid.Column="1" Background="#FFF1E5E5" Content="Tab" FontSize="19" BorderBrush="Black"  Width="82" HorizontalAlignment="Left" Height="76" Grid.RowSpan="3" Margin="396,44,0,0"/>
+        <Button Name="Q"  BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="7" Grid.Column="1" Background="#ff8c78" Content=" q" FontSize="28" BorderBrush="Black"  Width="62" HorizontalAlignment="Left" Margin="477,44,0,29" Grid.RowSpan="3"/>
+        <Button Name="W"  BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="7" Grid.Column="1" Background="#eaf5a2" Content=" w" FontSize="28" BorderBrush="Black"  Width="62" HorizontalAlignment="Left" Margin="534,45,0,29" Grid.RowSpan="3" Grid.ColumnSpan="2" Height="75.755"/>
+        <Button Name="E"  BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="7" Grid.Column="2" Background="#a8f0a9" Content=" e" FontSize="28" BorderBrush="Black"  Width="62" HorizontalAlignment="Left" Margin="40,44,0,29" Grid.RowSpan="3" Grid.ColumnSpan="3"/>
+        <Button Name="R"  BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="7" Grid.Column="4" Background="#a1fffc" Content=" r" FontSize="28" BorderBrush="Black"  Width="62" HorizontalAlignment="Left" Margin="9,44,0,29" Grid.RowSpan="3" Grid.ColumnSpan="2"/>
+        <Button Name="T"  BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="7" Grid.Column="5" Background="#a1fffc" Content=" t" FontSize="28" BorderBrush="Black"  Width="67" HorizontalAlignment="Left" Margin="22,44,0,29" Grid.RowSpan="3" Grid.ColumnSpan="2"/>
+        <Button Name="Y"  BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="7" Grid.Column="6" Background="#d995ed" Content=" y" FontSize="28" BorderBrush="Black"  Width="62" HorizontalAlignment="Left" Margin="40,44,0,29" Grid.RowSpan="3" Grid.ColumnSpan="3"/>
+        <Button Name="U"  BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="7" Grid.Column="8" Background="#d995ed" Content=" u" FontSize="28" BorderBrush="Black"  Width="62" HorizontalAlignment="Left" Margin="10,44,0,29" Grid.RowSpan="3" Grid.ColumnSpan="2"/>
+
+        <Button Name="I" BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="7" Grid.Column="9" Background="#ff8c78" Content=" i" FontSize="28" BorderBrush="Black"  Width="62" HorizontalAlignment="Left" Margin="24,44,0,29" Grid.RowSpan="3" Grid.ColumnSpan="2"/>
+        <Button Name="O" BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="7" Grid.Column="10" Background="#eaf5a2" Content=" o" FontSize="28" BorderBrush="Black"  Width="68" HorizontalAlignment="Left" Margin="40,44,0,29" Grid.RowSpan="3" Grid.ColumnSpan="3"/>
+        <Button Name="P" BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="7" Grid.Column="12" Background="#a8f0a9" Content=" p" FontSize="28" BorderBrush="Black"  Width="68" HorizontalAlignment="Left" Margin="18,44,0,29" Grid.RowSpan="3" Grid.ColumnSpan="2"/>
+        <Button Name="OemOpenBrackets" BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="7" Grid.Column="13" Background="#a8f0a9" Content=" [" FontSize="28" BorderBrush="Black"  Width="68" HorizontalAlignment="Left" Margin="38,44,0,29" Grid.RowSpan="3" Grid.ColumnSpan="3"/>
+        <Button Name="OemCloseBrackets" BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="7" Grid.Column="15" Background="#a8f0a9" Content=" ]" FontSize="28" BorderBrush="Black"  Width="68" HorizontalAlignment="Center" Margin="0,44,0,29" Grid.RowSpan="3"/>
+
+        <Label Name="leftslash" BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="7" Grid.Column="15" Background="#FFF1E5E5" Content="    " FontSize="28" BorderBrush="Black"  Width="138" HorizontalAlignment="Left" Margin="82,44,0,29" Grid.RowSpan="3" Grid.ColumnSpan="2"/>
+
+        <Button Name="capslock" BorderThickness="1" VerticalAlignment="Top" TextBlock.TextAlignment="Center" Grid.Row="9" Grid.Column="1" Background="#FFF1E5E5" Content="Caps Lock" FontSize="15" BorderBrush="Black"  Width="114" HorizontalAlignment="Left" Height="75" Grid.RowSpan="2" Margin="396,20,0,0"/>
+
+        <Button Name="A" BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="9" Grid.Column="1" Background="#ff8c78" Content=" a" FontSize="28" BorderBrush="Black"  Width="64" HorizontalAlignment="Left" Margin="509,20,0,5" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+        <Button Name="S"    BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="9" Grid.Column="2" Background="#eaf5a2" Content=" s" FontSize="28" BorderBrush="Black"  Width="64" HorizontalAlignment="Left" Margin="17,20,0,5" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+        <Button Name="D"    BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="9" Grid.Column="3" Background="#a8f0a9" Content=" d" FontSize="28" BorderBrush="Black"  Width="67" HorizontalAlignment="Left" Margin="34,20,0,5" Grid.RowSpan="2" Grid.ColumnSpan="3"/>
+
+        <Button Name="G"    BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="9" Grid.Column="6" Background="#a1fffc" Content=" g" FontSize="28" BorderBrush="Black"  Width="66" HorizontalAlignment="Left" Margin="28,20,0,5" Grid.RowSpan="2" Grid.ColumnSpan="3"/>
+        <Button Name="F"    BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="9" Grid.Column="5" Background="#a1fffc" Content=" f" FontSize="28" BorderBrush="Black"  Width="67" HorizontalAlignment="Left" Margin="7,20,0,5" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+
+        <Button Name="H"   BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="9" Grid.Column="7" Background="#d995ed" Content=" h" FontSize="28" BorderBrush="Black"  Width="68" HorizontalAlignment="Left" Margin="43,20,0,5" Grid.RowSpan="2" Grid.ColumnSpan="3"/>
+        <Button Name="J"    BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="9" Grid.Column="9" Background="#d995ed" Content=" j" FontSize="28" BorderBrush="Black"  Width="67" HorizontalAlignment="Left" Margin="15,20,0,5" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+
+        <Button Name="K"    BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="9" Grid.Column="10" Background="#ff8c78" Content=" k" FontSize="28" BorderBrush="Black"  Width="68" HorizontalAlignment="Left" Margin="36,20,0,5" Grid.RowSpan="2" Grid.ColumnSpan="3"/>
+
+        <Button Name="L"    BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="9" Grid.Column="12" Background="#eaf5a2" Content=" l" FontSize="28" BorderBrush="Black"  Width="66" HorizontalAlignment="Left" Margin="14,20,0,5" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+
+        <Button Name="Oem1"   BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="9" Grid.Column="13" Background="#a8f0a9" Content=" ;" FontSize="28" BorderBrush="Black"  Width="66" HorizontalAlignment="Left" Margin="30,20,0,5" Grid.RowSpan="2" Grid.ColumnSpan="3"/>
+        <Button Name="Oem1Quotes"   BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="9" Grid.Column="15" Background="#a8f0a9" Content=" '" FontSize="28" BorderBrush="Black"  Width="66" HorizontalAlignment="Left" Margin="6,20,0,5" Grid.RowSpan="2"/>
+
+
+        <Button Name="enter" BorderThickness="1" VerticalAlignment="Top" TextBlock.TextAlignment="Center" Grid.Row="9" Grid.Column="15" Background="#FFF1E5E5" Content="    Enter" FontSize="19" BorderBrush="Black" Height="75" Margin="72,21,498,0" Grid.RowSpan="2" Grid.ColumnSpan="2"/>
+        <Button Name="leftshift"   BorderThickness="1" VerticalAlignment="Top" TextBlock.TextAlignment="Center" Grid.Row="10" Grid.Column="1" Background="#FFF1E5E5" Content="Shift" FontSize="15" BorderBrush="Black" Height="75" Margin="396,44,13,0" Grid.RowSpan="3"/>
+
+
+
+
+
+
+
+
+        <Button Name="Z" BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="10" Grid.Column="1" Background="#ff8c78" Content=" z" FontSize="28" BorderBrush="Black"  Width="65" HorizontalAlignment="Right" Margin="0,44,40,83" Grid.RowSpan="3" Grid.ColumnSpan="3"/>
+        <Button Name="X"  BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="10" Grid.Column="3" Background="#eaf5a2" Content=" x" FontSize="28" BorderBrush="Black"  Width="64" HorizontalAlignment="Left" Margin="4,44,0,83" Grid.RowSpan="3" Grid.ColumnSpan="2"/>
+        <Button Name="C"  BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="10" Grid.Column="4" Background="#a8f0a9" Content=" c" FontSize="28" BorderBrush="Black"  Width="67" HorizontalAlignment="Left" Margin="22,44,0,83" Grid.RowSpan="3" Grid.ColumnSpan="2"/>
+        <Button Name="V"  BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="10" Grid.Column="5" Background="#a1fffc" Content=" v" FontSize="28" BorderBrush="Black"  Width="67" HorizontalAlignment="Left" Margin="42,44,0,83" Grid.RowSpan="3" Grid.ColumnSpan="3"/>
+        <Button Name="B"  BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="10" Grid.Column="7" Background="#a1fffc" Content=" b" FontSize="28" BorderBrush="Black"  Width="67" HorizontalAlignment="Left" Margin="18,44,0,83" Grid.RowSpan="3" Grid.ColumnSpan="2"/>
+        <Button  Name="N" BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="10" Grid.Column="8" Background="#d995ed" Content=" n" FontSize="28" BorderBrush="Black"  Width="67" HorizontalAlignment="Left" Margin="38,44,0,83" Grid.RowSpan="3" Grid.ColumnSpan="3"/>
+        <Button  Name="M" BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="10" Grid.Column="10" Background="#d995ed" Content=" m" FontSize="28" BorderBrush="Black"  Width="67" HorizontalAlignment="Left" Margin="13,44,0,83" Grid.RowSpan="3" Grid.ColumnSpan="2"/>
+        <Button Name="OemComma" BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="10" Grid.Column="11" Background="#ff8c78" Content=" ," FontSize="28" BorderBrush="Black"  Width="66" HorizontalAlignment="Left" Margin="34,44,0,83" Grid.RowSpan="3" Grid.ColumnSpan="3"/>
+        <Button Name="OemPeriod" BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="10" Grid.Column="13" Background="#eaf5a2" Content=" ." FontSize="28" BorderBrush="Black"  Width="64" HorizontalAlignment="Left" Margin="10,44,0,83" Grid.RowSpan="3" Grid.ColumnSpan="2"/>
+        <Button Name="rightslash"  BorderThickness="1" TextBlock.TextAlignment="Center" Grid.Row="10" Grid.Column="14" Background="#a8f0a9" Content="  /" FontSize="28" BorderBrush="Black"  Width="68" HorizontalAlignment="Left" Margin="28,44,0,83" Grid.RowSpan="3" Grid.ColumnSpan="2"/>
+        <Button Name="rightshift"   BorderThickness="1" VerticalAlignment="Top" TextBlock.TextAlignment="Center" Grid.Row="10" Grid.Column="15" Background="#FFF1E5E5" Content="                  Shift" FontSize="15" BorderBrush="Black" Height="75" Margin="50,44,498,0" Grid.RowSpan="3" Grid.ColumnSpan="2"/>
+
+
+
+
+        <Button Name="leftctrl"   BorderThickness="1" VerticalAlignment="Bottom" TextBlock.TextAlignment="Center" Grid.Row="12" Grid.Column="1" Background="#FFF1E5E5" Content="Ctrl" FontSize="19" BorderBrush="Black"  Width="74" HorizontalAlignment="Left" Height="73" Margin="396,0,0,10"/>
+        <Button Name="leftcmd"  BorderThickness="1" VerticalAlignment="Bottom" TextBlock.TextAlignment="Center" Grid.Row="12" Grid.Column="1" Background="#FFF1E5E5" Content="Cmd" FontSize="19" BorderBrush="Black"  Width="75" HorizontalAlignment="Left" Height="73" Margin="468,0,0,10"/>
+        <Button  Name="leftalt" BorderThickness="1" VerticalAlignment="Bottom" TextBlock.TextAlignment="Center" Grid.Row="12" Grid.Column="1" Background="#FFF1E5E5" Content="Alt" FontSize="19" BorderBrush="Black"  Width="77" HorizontalAlignment="Left" Height="73" Grid.ColumnSpan="3" Margin="541,0,0,10"/>
+
+        <Button Name="space"  BorderThickness="1" VerticalAlignment="Bottom" TextBlock.TextAlignment="Center" Grid.Row="12" Grid.Column="3" Background="#845a96" Content="" FontSize="15" BorderBrush="Black" Height="73" Grid.ColumnSpan="10" Margin="17,0,36,10"/>
+
+
+        <Button Name="rightalt"  BorderThickness="1" VerticalAlignment="Bottom" TextBlock.TextAlignment="Center" Grid.Row="12" Grid.Column="12" Background="#FFF1E5E5" Content="Alt" FontSize="19" BorderBrush="Black"  Width="76" HorizontalAlignment="Center" Height="73" Grid.ColumnSpan="2" Margin="0,0,0,10"/>
+        <Button Name="rightcmd" BorderThickness="1" VerticalAlignment="Bottom" TextBlock.TextAlignment="Center" Grid.Row="12" Grid.Column="13" Background="#FFF1E5E5" Content="Cmd" FontSize="19" BorderBrush="Black"  Width="90" HorizontalAlignment="Left" Height="73" Margin="36,0,0,10" Grid.ColumnSpan="3"/>
+        <Button  Name="menu" BorderThickness="1" VerticalAlignment="Bottom" TextBlock.TextAlignment="Center" Grid.Row="12" Grid.Column="15" Background="#FFF1E5E5" Content="Menu" FontSize="19" BorderBrush="Black"  Width="94" HorizontalAlignment="Left" Height="73" Margin="36,0,0,10" Grid.ColumnSpan="2"/>
+
+        <Button Name="rightctrl"  BorderThickness="1" VerticalAlignment="Bottom" TextBlock.TextAlignment="Center" Grid.Row="12" Grid.Column="16" Background="#FFF1E5E5" Content="Ctrl" FontSize="19" BorderBrush="Black"  Width="92" HorizontalAlignment="Left" Height="73" Margin="28,0,0,10"/>
+
+
+
+        <!--<TextBox x:Name="generatedText" Grid.Row="3" Grid.Column="8" Grid.ColumnSpan="8" HorizontalAlignment="Left" Margin="44,39,0,0" Grid.RowSpan="3" Width="370" FontSize="30" HorizontalContentAlignment="Center" Height="45" VerticalAlignment="Top"/>
+        <TextBox  x:Name="InputedText" Grid.Row="3" Grid.Column="2" Grid.ColumnSpan="7" Background="#FFDEE3EA" FontFamily="Bahnschrift SemiBold" FontSize="30"  Foreground="#FFB5B5B5" Margin="1,39,0,0" Grid.RowSpan="3" Height="45" VerticalAlignment="Top"/>-->
+
+        <TextBox VerticalScrollBarVisibility="Auto" TextWrapping="Wrap" Grid.Row="2" FontSize="18" IsReadOnly="True" Name="generatedText" IsEnabled="False" Background="#FFE3E6D9" BorderBrush="#ADD8E6" FontFamily="Bahnschrift" Grid.ColumnSpan="9" Margin="0,0,10,0" Grid.RowSpan="4" Height="356" VerticalAlignment="Top"/>
+        <TextBox VerticalScrollBarVisibility="Auto" Grid.Row="2" Grid.Column="8" TextWrapping="Wrap"   FontSize="21" IsReadOnly="True" Name="InputedText"  IsEnabled="False" Background="#FF82E059" BorderBrush="#ADD8E6" TextChanged="inputedText_TextChanged" FontFamily="Roboto" Grid.ColumnSpan="9" Margin="36,0,0,0" Grid.RowSpan="4" Height="356" VerticalAlignment="Top" KeyDown="InputedText_KeyDown"/>
+
+
+
+        <WrapPanel Grid.ColumnSpan="17" Background="#FF4652B5" Height="63" VerticalAlignment="Top" Grid.RowSpan="2">
+            <Label VerticalContentAlignment="Center" Content="Speed:" FontSize="21" Width="77" FontWeight="Bold" Height="63"/>
+            <Label VerticalContentAlignment="Center"  Content="0" FontSize="21" x:Name="SpeedChar" FontWeight="Bold" Width="55"/>
+            <Label VerticalContentAlignment="Center"  Content="chars/min" FontSize="21" FontWeight="Bold"/>
+            <Label VerticalContentAlignment="Center"  Name="FailsContent" Margin="20,0,5,0" Content="Fails:" FontSize="21" FontWeight="Bold"/>
+            <Label VerticalContentAlignment="Center"  Content="0" FontSize="21" x:Name="Fails" FontWeight="Bold" Width="61"/>
+            <Label VerticalContentAlignment="Center"  FontWeight="Bold" Grid.Column="11" Content="Timer" FontSize="21" Grid.ColumnSpan="2" HorizontalAlignment="Center" Width="89" Background="#FF9C9EE4" Grid.RowSpan="2" Height="63"/>
+            <Label VerticalContentAlignment="Center"   Grid.Column="13" Content="0" FontSize="21" x:Name="TotalTime" FontWeight="Bold" Grid.ColumnSpan="3" HorizontalAlignment="Left" Width="83" Background="#FF9C9EE4" Grid.RowSpan="2"/>
+
+            <Button x:Name="start" FontWeight="Bold" Click="Start_Click" BorderThickness="0.5" TextBlock.TextAlignment="Center" Grid.Column="13" Background="#FF61FF8F" Content="Start" FontSize="19" BorderBrush="Black" Grid.ColumnSpan="3" Grid.RowSpan="2" Height="63" VerticalAlignment="Center" Width="76"/>
+            <Button x:Name="stop"  FontWeight="Bold" Click="Stop_Click" BorderThickness="0.5" TextBlock.TextAlignment="Center" Grid.Row="5" Grid.Column="4" Background="#FFFBA9A9" Content="Stop" FontSize="19" BorderBrush="Black" HorizontalAlignment="Center" Width="76" Grid.ColumnSpan="3" Grid.RowSpan="2" Height="63" VerticalAlignment="Center" IsEnabled="False"/>
+
+        </WrapPanel>
+
+
+
+
+
+
+
+
+
+    </Grid>
+</Window>
